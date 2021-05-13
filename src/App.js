@@ -7,7 +7,6 @@ function App() {
   const [newItemText, setNewItemText] = useState("")
 
   const handleCounterClick = value => {
-    // const newValue = counter + value
     setCounter( counter => counter + value )
   }
 
